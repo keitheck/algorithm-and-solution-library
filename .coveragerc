@@ -15,5 +15,7 @@ omit =
     */wsgi.py
     */settings.py
 
+source = /
+
 [report]
 show_missing = True
