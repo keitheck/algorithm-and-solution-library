@@ -6,6 +6,6 @@
 A collection of useful algorithms and solutions built using Test Driven Development methodology.  
 
 
-| Name - Description | Link | Language |
+| Name - Link | Description | Language |
 | ------------- |:----------------:| :---------:|
-|[sample](https://www.google.com)|test|test|
+|[Sort and Insert](sort_and_insert.py| sorts and returns first element of a list of strings | Python3 |
