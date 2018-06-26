@@ -8,4 +8,4 @@ A collection of useful algorithms and solutions built using Test Driven Developm
 
 | Name - Link | Description | Language |
 | ------------- |:----------------:| :---------:|
-|[Sort and Insert](sort_and_insert.py| sorts and returns first element of a list of strings | Python3 |
+|[Sort and Insert](/sort_and_insert.py| sorts and returns first element of a list of strings | Python3 |
