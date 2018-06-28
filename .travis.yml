@@ -5,10 +5,11 @@ python:
 
 install:
   - pip install -r requirements.txt
+  - pip install pytest-cov
   
 
 script: 
-  - pytest --cov -vv
+  - pytest --cov
   - coverage # run --source=my_package setup.py test
   # - coverage
 
