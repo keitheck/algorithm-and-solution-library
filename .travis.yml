@@ -9,8 +9,7 @@ install:
   
 
 script:
-  - python_files=test_*.py
-  - pytest --cov
+  - pytest --cov --ignore=home
   - coverage # run --source=algorithm-and-solution-library run --source=my_package setup.py test
   # - coverage
 
