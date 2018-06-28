@@ -8,7 +8,7 @@ install:
   
 
 script: 
-  - pytest
+  - pytest --cov -vv
   - coverage # run --source=my_package setup.py test
   # - coverage
 
