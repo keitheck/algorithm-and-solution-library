@@ -10,7 +10,7 @@ install:
 
 script: 
   - pytest --cov
-  - coverage # run --source=my_package setup.py test
+  - coverage run --source=/ # run --source=my_package setup.py test
   # - coverage
 
 
