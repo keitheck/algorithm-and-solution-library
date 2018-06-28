@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/keitheck/algorithm-and-solution-library/badge.svg?branch=master)](https://coveralls.io/github/keitheck/algorithm-and-solution-library?branch=master)
 
 # algorithm-and-solution-library
-A collection of useful algorithms and solutions built using Test Driven Development methodology.  
+A collection of useful algorithms and solutions built using Test Driven Development methodology.  All python solutions include error handling and some may include code (generally commented out, un-comment to run) that prints execution time to console.  
 
 
 | Name | Description | Language |
