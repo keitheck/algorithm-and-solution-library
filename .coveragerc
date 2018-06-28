@@ -2,7 +2,7 @@
 branch = True
 
 omit =
-    */travis/*
+    */home/travis/virtualenv/*
     */ENV/*
     */migrations/*
     */test/*
