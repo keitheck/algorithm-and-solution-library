@@ -2,6 +2,7 @@
 branch = True
 
 omit =
+    */home/*
     */ENV/*
     */migrations/*
     */test/*
