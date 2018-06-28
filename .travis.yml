@@ -8,8 +8,9 @@ install:
   - pip install pytest-cov
   
 
-script: 
-  - pytest --cov --source=algorithm-and-solution-library
+script:
+  - python_files=test_*.py
+  - pytest --cov
   - coverage # run --source=algorithm-and-solution-library run --source=my_package setup.py test
   # - coverage
 
