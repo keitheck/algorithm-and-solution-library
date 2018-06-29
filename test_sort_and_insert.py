@@ -16,25 +16,13 @@ def test_other_iterable_one():
         ) == 'a***r***d***v***a***r***k'
 
 
-@pytest.fixture
-def list_ints():
-    """Returns unordered list of ints."""
-    return [6, 9, 4, 2, 8]
-
-
 def test_list_of_ints():
     """Error handling."""
     with pytest.raises(TypeError):
-        si(list_ints)
-
-
-@pytest.fixture
-def dictionary():
-    """Returns dictionary."""
-    return {'g': 4, 'y': 9, 't': 5, 'a': 1}
+        si([6, 9, 4, 2, 8])
 
 
 def test_other_iterable_two():
     """Error Handling."""
     with pytest.raises(TypeError):
-        si(dictionary)
+        si({'g': 4, 'y': 9, 't': 5, 'a': 1})
