@@ -16,3 +16,4 @@ def divisors(integer):
         return "{} is prime".format(integer)
     else:
         return out
+    
