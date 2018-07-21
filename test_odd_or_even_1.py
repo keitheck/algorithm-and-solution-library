@@ -28,7 +28,7 @@ def test_error_handling():
         oe(3.4)
 
 
-def test_error_handling():
+def test_error_handling_two():
     """Tests Error handled when non-integer argument used"""
     with pytest.raises(TypeError):
         oe('99')
